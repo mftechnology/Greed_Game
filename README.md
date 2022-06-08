@@ -1,7 +1,7 @@
 # Greed
 
-The player try and collect the gems(*) and at the same time, avoid rocks(0) 
-Each gems collected have a value 10 points and rocks you lost score
+The player using the arrow keyboard to collect the gems(*) and get points and at the same time, avoid rocks(0) 
+Each gems collected have a value 10 points and rocks you lost score.
 
 
 ## Project Structure
