@@ -1,6 +1,6 @@
 # Greed
 
-Jumper is a game in which the player seeks to solve a puzzle by guessing the letters of a secret word one at a time
+Greed is a game in which the player seeks to solve a puzzle by guessing the letters of a secret word one at a time
 
 The player try and collect the gems(*) and at the same time, avoid rocks(0) 
 Each gems collected have a value 10 points and rocks you lost score
