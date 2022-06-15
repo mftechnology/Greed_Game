@@ -16,8 +16,8 @@ from game.shared.point import Point
 FRAME_RATE = 12
 MAX_X = 900
 MAX_Y = 600
-CELL_SIZE = 10
-FONT_SIZE = 15
+CELL_SIZE = 15
+FONT_SIZE = 25
 COLS = 60
 ROWS = 40
 CAPTION = "Robot Finds Gems"
@@ -43,11 +43,16 @@ def main():
     y = int(MAX_Y / 2)
     position = Point(x, y)
 
+    #position initial of robot
+    x_rbt = int(MAX_X / 2)
+    y_rbt = int(MAX_Y - 30) 
+    position_rbt = Point(x_rbt , y_rbt)
+    
     robot = Actor()
     robot.set_text("#")
     robot.set_font_size(FONT_SIZE)
     robot.set_color(WHITE)
-    robot.set_position(position)
+    robot.set_position(position_rbt)
     cast.add_actor("robots", robot)
     
     # create the artifacts
